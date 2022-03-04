@@ -1,4 +1,4 @@
-basic.showIcon(IconNames.Heart)
+basic.showIcon(IconNames.House)
 huskylens.initI2c()
 huskylens.initMode(protocolAlgorithm.ALGORITHM_COLOR_RECOGNITION)
 let strip = neopixel.create(DigitalPin.P0, 24, NeoPixelMode.RGB)
